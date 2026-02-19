@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale">
+    </head>
+    <body>
+        <div class="scroll-button">
+            <a href="#home" id="scrollBtn">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <span>Jukim</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#services">Certificate</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="#contact">Contact</a></div>
+                </div>
+                <i class ="fa-solid fa-bars hamburg"onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Certificate</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#projects">Projects</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>                
+            </div>
+        </nav>
+        <section id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-out" data-aos-delay="700">
+                    <img src="picture.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                        My name is
+                        <span>Manansanun</span>
+                    </h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                        I'm a&nbsp;
+                        <span class="typewriter-text">Student</span>
+                    </div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a 17 years old senior high school student with a strong interest in science projects,
+                        innovation, and computer technology. This website showcases my academic competitions, and certificate.
+                        </p>
+                    <div class="social-links">
+                        <a href="https://github.com/kirari123eiei" target="_blank"
+                        rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+                    <div class="about-details">
+                        <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                            <img src="picture1.jpg" alt="">
+                        </div>
+                        <div class="right">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Personal Profile</div>
+                        <p style="text-indent: 40px;" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                            My name is Jukim, and I am 17 years old. I am currently a senior high school student
+                            with a strong interest in science, innovation, and computer technology.
+                        </p>
+                        <p style="text-indent: 40px;" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                            I have participated in various academic competitions, including science project
+                            competitions, innovation contests, and computer-related challenges. Through these
+                            experiences, I have developed skills in research, problem-solving, teamwork, and
+                            project-based learning.
+                        </p>
+                        <p style="text-indent: 40px;" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                            I enjoy applying scientific knowledge and technology to real-world problems and
+                            continuously improving myself through hands-on projects and academic activities.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+                <div class="skills-details">
+                    <div class="text">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                            Skills Reflect My Experience
+                        </div>
+                        <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+                            • Science project development and research skills<br>
+• C/C++ and Python programming<br>
+• Problem-solving and algorithmic thinking<br>
+• Cybersecurity basics (CTF experience)<br>
+• Teamwork, leadership, and communication
+                        </p>
+                        <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                            <div class="num">2</div>
+                            <div class="exp">
+                                Years Of<br>Experience in coding
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="topic"data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">60%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Mathematics</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Cpp</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Python</div>
+                            <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200">
+                    <span>My Projects</span>
+                </div>
+        
+                <div class="project-boxes">
+                    <div class="project-box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="posn.jpg" alt="Seedling System">
+                        <h3>POSN Camp 1 – Computer Science (Academic Olympiad Program)</h3>
+
+<p>
+    Selected participant in the POSN Camp 1 (Computer Science), 
+    a national academic olympiad training program focused on 
+    advanced programming and algorithmic problem-solving.
+</p>
+
+<p>
+    During the camp, I studied C++ programming in depth, 
+    including data structures, algorithm design, 
+    time complexity analysis, and competitive programming techniques.
+</p>
+
+<p>
+    This experience strengthened my logical thinking, 
+    problem-solving skills, and ability to write efficient 
+    and optimized code under time constraints.
+</p>
+
+
+                    </div>
+                    <div class="project-box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="project1.jpg" alt="Seedling System">
+                        <h3>Fully Integrated Automated Seedling Cultivation System</h3>
+
+<p>
+    This project focuses on designing and implementing an automated seedling 
+    cultivation system that integrates robotics, data communication, 
+    and intelligent control mechanisms to improve agricultural productivity.
+</p>
+
+<p>
+    Through this project, I developed technical expertise in real-time data 
+    transmission between microcontroller boards, user data handling and system 
+    reliability, as well as programming a robotic arm to execute accurate 
+    movements using a coordinate-based control framework.
+</p>
+
+                    </div>
+        
+                    <div class="project-box" data-aos="fade-up" data-aos-delay="800">
+                        <img src="hydrogen.jpg" alt="Hydrogen Synthesis System">
+                    
+                        <h3>Hydrogen Synthesis System for Alternative Energy Research</h3>
+                    
+                        <p>
+                            This project involves the development of a hydrogen synthesis system 
+                            designed to explore alternative clean energy solutions and 
+                            potential industrial applications.
+                        </p>
+                    
+                        <p>
+                            The system produces hydrogen gas from water using an electrolysis process, 
+                            where electrical energy is applied to split water molecules into 
+                            hydrogen and oxygen.
+                        </p>
+                    
+                        <p>
+                            Through this project, I gained a deeper understanding of electrochemical 
+                            reactions, renewable energy technologies, and sustainable engineering design. 
+                            I also developed practical skills in system construction, experimental testing, 
+                            safety control, and performance evaluation of energy systems.
+                        </p>
+                    </div>
+                    
+        
+                    <div class="project-box" data-aos="fade-up" data-aos-delay="600">
+                        <img src="project3.jpg" alt="Cybersecurity CTF">
+                        <h3>Machine Learning Model for Global Risk Analysis</h3>
+
+<p>
+    This project focuses on developing a machine learning model 
+    to analyze and predict global risk factors using large-scale datasets.
+</p>
+
+<p>
+    The system evaluates multiple variables such as environmental indicators, 
+    economic trends, and social stability metrics to identify patterns 
+    and assess potential global risks.
+</p>
+
+<p>
+    Through this project, I gained experience in data preprocessing, 
+    feature engineering, model training and evaluation, 
+    as well as interpreting predictive analytics results 
+    for real-world decision-making applications.
+</p>                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="services" id="services">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Certificate</span></div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="icon">
+                            <img src="cer.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Student Art and Crafts Fair 2022 (Science Project Experimental Category)</div>
+                        <p>Gold Medal & First Runner-Up Award</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                        <div class="icon">
+                            <img src="cer1.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic"> National Science Week 2023<br>
+                            Faculty of Science, Ubon Ratchathani University<br>
+                            Science Project Biology Category</div>
+                        <p>Bronze Medal</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="icon">
+                            <img src="cer2.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">KM Research Proposal Competition 2025: Pathway to Sustainable Health Science Research and Innovation
+                            Organized by the Khun Mhor Club</div>
+                        <p>Certificate of Participation</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="icon">
+                            <img src="cer3.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Academic Olympiad Program</div>
+                        <p>Qualified and Successfully Completed POSN Camp 1 (Computer Science)</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                        <div class="icon">
+                            <img src="cer4.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Hack the Scammer CTF 2025</div>
+                        <p>Certificate of Participation</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="icon">
+                            <img src="cer5.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">National Mathematics Competition (Lower Secondary Level), International Academic Competition 2023</div>
+                        <p>Silver Medal</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="icon">
+                            <img src="cer6.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">The Best of Science XIX (KKW), 2024
+                            Science Knowledge Examination (Upper Secondary Level)</div>
+                        <p>Honorable Mention Award</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                        <div class="icon">
+                            <img src="cer7.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">The Best of Science XX (KKW), 2025
+                            Science Knowledge Examination (Upper Secondary Level)</div>
+                        <p>Bronze Medal Award</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="icon">
+                            <img src="cer8.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Woman Thailand Cyber Top Talent 2025</div>
+                        <p>Certificate of Participation</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="icon">
+                            <img src="cer9.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Thailand English Skills Evaluation Test (TESET) 2025
+                            National English Proficiency Assessment</div>
+                        <p>Score: 73/100<br>
+                            CEFR Level: B1 (Intermediate)</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                        <div class="icon">
+                            <img src="cer10.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Thailand New Gen Inventors Award 2025
+                            Innovation & Invention Competition (Secondary Level)
+                            Energy, Materials, and Chemical Biological Category</div>
+                        <p>Gold Medal</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="icon">
+                            <img src="cer11.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Thailand New Gen Inventors Award 2026
+                            Innovation & Invention Competition (Secondary Level)
+                            Agriculture Category</div>
+                        <p>Gold Medal</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="icon">
+                            <img src="cer12.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">Selected Participant, Dentromeda: The Galactic Voyage (Open House 9)
+                            Faculty of Dentistry, Khon Kaen University</div>
+                        <p>Selection-based Open House Program</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                        <div class="icon">
+                            <img src="cer13.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">MEDQuiz 2025
+                            Faculty of Medicine, Khon Kaen University
+                            Medical Knowledge Competition</div>
+                        <p>Qualified for the Top 100 Teams</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                        <div class="icon">
+                            <img src="cer14.jpg" alt="" class="cert-img">
+                        </div>
+                        <div class="topic">NAT Genius Academic Applied Math Camp 2025
+                            Upper Secondary Level</div>
+                        <p>Selected Student Representative</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                    <span>Contact Me</span>
+                </div>
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Email: manansanun.roj@gmail.com</div>
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">Tel: 082 658 9953</div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="text">
+                <span>Create By
+                    <a href="#">Manansanun Roj</a>
+                    | &#169; 2026 All Right Reserved
+                </span>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script src="scripts.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const modal = document.getElementById("imgModal");
+                const modalImg = document.getElementById("imgPreview");
+                const closeBtn = document.querySelector(".img-modal .close");
+            
+                document.querySelectorAll(".cert-img").forEach(img => {
+                    img.addEventListener("click", () => {
+                        modal.style.display = "block";
+                        modalImg.src = img.src;
+                    });
+                });
+            
+                closeBtn.addEventListener("click", () => {
+                    modal.style.display = "none";
+                });
+            
+                modal.addEventListener("click", () => {
+                    modal.style.display = "none";
+                });
+            });
+            const scrollBtn = document.getElementById("scrollBtn");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        scrollBtn.style.display = "block";
+    } else {
+        scrollBtn.style.display = "none";
+    }
+});
+
+            </script>
+        
+        
+        <div id="imgModal" class="img-modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgPreview">
+        </div>
+        
+    </body>
+</html>
