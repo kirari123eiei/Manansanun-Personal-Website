@@ -683,14 +683,16 @@ footer .text span a:hover{
     margin: 30px 0;
     border-radius: 15px;
     overflow: hidden;
-    transition: 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 
 .project-box:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
+
 
 .project-box h3{
     color: rgb(249, 224, 85);
@@ -709,5 +711,12 @@ footer .text span a:hover{
     border-radius: 12px;
     display: block;
     margin-bottom: 20px;
+}
+.project-box img{
+    transition: transform 0.4s ease;
+}
+
+.project-box:hover img{
+    transform: scale(1.08);
 }
 
