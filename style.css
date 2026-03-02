@@ -719,4 +719,28 @@ footer .text span a:hover{
 .project-box:hover img{
     transform: scale(1.08);
 }
+.contact-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.drive-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #34A853, #4285F4);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.drive-btn i {
+    margin-right: 8px;
+}
+
+.drive-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
